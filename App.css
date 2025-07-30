@@ -1,0 +1,54 @@
+/* App.css or MovieList.css */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #111;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.MovieCard {
+  width: 200px;
+  background-color: #222;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease;
+}
+
+.MovieCard:hover {
+  transform: scale(1.05);
+}
+
+.MovieCard img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.MovieCard .details {
+  padding: 15px;
+  text-align: center;
+}
+
+.MovieCard .details h3 {
+  font-size: 1rem;
+  margin: 0;
+  color: #00e0ff;
+}
+
+.MovieCard .details p {
+  font-size: 0.85rem;
+  color: #ccc;
+  margin-top: 5px;
+}
